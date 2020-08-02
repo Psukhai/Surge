@@ -16,7 +16,7 @@ WeChat.js = script-path=https://Choler.github.io/Surge/Script/WeChat.js,type=htt
 YouTube.js = script-path=https://Choler.github.io/Surge/Script/YouTube.js,type=http-request,pattern=^https://[\s\S]*\.googlevideo\.com/.*&(oad|ctier)
 
 # Epic 周免
-Epic周免= type=cron,cronexp=0 8 */7 * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js
+Epic周免 = type=cron,cronexp=0 8 */7 * *,script-path=https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/epic.js
 
 # Pixiv
 premium.js = requires-body=1,script-path=https://raw.githubusercontent.com/Xirou/Surge-Script/master/surge%20pixiv%20premium.js,type=http-response,pattern=^https://oauth.secure.pixiv.net/auth/token
