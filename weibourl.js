@@ -22,7 +22,7 @@
 
  const $ = new cmp()
 
- $.notify(``, "Fuck YOU", "🔗点击打开链接", url)
+ $.notify(``, "FUCK YOU", "🔗点击打开链接", url)
 
  $done({});
 
