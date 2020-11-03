@@ -4,6 +4,12 @@
 [MITM]
 hostname = %APPEND% vsco.co, api.vuevideo.net,oauth.secure.pixiv.net, app-api.pixiv.net, mp.weixin.qq.com, *.googlevideo.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, api.gamer.com.tw, weixin110.qq.com
 
+[Rule]
+DOMAIN,mesu.apple.com,REJECT
+DOMAIN,gdmf.apple.com,REJECT
+DOMAIN,updates-http.cdn-apple.com,REJECT
+DOMAIN,xp.apple.com,REJECT
+
 [Script]
 
 # WeChat
