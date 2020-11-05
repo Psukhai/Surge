@@ -1,5 +1,5 @@
-#!name=京东
-#!desc=京东多合一每日自动签到
+#!name=JD_DailyBonus
+#!desc=JD_DailyBonus
 #!system=ios
 
 [Script]
