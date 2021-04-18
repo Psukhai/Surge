@@ -2,7 +2,7 @@
 #!desc=Script Pack
 
 [MITM]
-hostname = %APPEND% vsco.co, api.vuevideo.net, mp.weixin.qq.com, *.googlevideo.com, api.weibo.cn, share.api.weibo.cn, weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com
+hostname = %APPEND% vsco.co, api.vuevideo.net, mp.weixin.qq.com, *.googlevideo.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com
 
 [Script]
 
