@@ -2,7 +2,7 @@
 #!desc=Script Pack
 
 [MITM]
-hostname = %APPEND% vsco.co, api.vuevideo.net, mp.weixin.qq.com, *.googlevideo.com, api.weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com
+hostname = %APPEND% vsco.co, api.vuevideo.net, mp.weixin.qq.com, *.googlevideo.com, api.weibo.cn, share.api.weibo.cn, weibo.cn, mapi.weibo.com, *.uve.weibo.com, weixin110.qq.com
 
 [Script]
 
@@ -20,6 +20,9 @@ VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Sc
 
 # Taobao opener
 weixin110.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/weixin110\.qq\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi,script-path=https://raw.githubusercontent.com/HotKids/Rules/master/Script/weixin110.js
+
+# Weibo opener
+Weiboredirect = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?toasturl=(.*),script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/weibo/weibo.redirect.js,script-update-interval=0
 
 # Weibo
 wb_launch.js = requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/wb_launch.js,type=http-response,pattern=^https?://(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua)
