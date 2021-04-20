@@ -8,7 +8,7 @@ url请求头中必须带有流量信息, 并且需要urlencode
 Nexitally = select, policy-path=http://t.tt?url=, update-interval=3600
 
 [Script]
-sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.githubusercontent.com/congcong0806/surge-list/master/Script/sub_info.js
+sub_info = type=http-request,pattern=http://t\.tt,script-path=https://raw.githubusercontent.com/Psukhai/Surge/main/gfg.js
 */
 
 let params = getUrlParams($request.url);
