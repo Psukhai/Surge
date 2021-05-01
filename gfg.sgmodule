@@ -40,7 +40,7 @@ let resetLeft = getRmainingDays(resetDay);
   let infoList = [`Usage: ${bytesToSize(used)} | ${bytesToSize(total)}`];
 
   if (resetLeft) {
-    infoList.push(`Traffic Reset: ${resetLeft}Day${resetLeft == 1 ? "" : "s"}`);
+    infoList.push(`Traffic Reset: ${resetLeft} Day${resetLeft == 1 ? "" : "s"}`);
   }
   if (expire) {
     if (/^[\d]+$/.test(expire)) expire *= 1000;
