@@ -112,7 +112,7 @@ function formatTime(time) {
   let year = dateObj.getFullYear();
   let month = dateObj.getMonth() + 1;
   let day = dateObj.getDate();
-
+  day = day < 10 ? '0' + day : day
   return year + "-" + month + "-" + day;
 }
 
