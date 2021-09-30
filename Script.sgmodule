@@ -14,7 +14,7 @@ YouTube.js = script-path=https://choler.github.io/Surge/Script/YouTube.js,type=h
 # WeChat Public Accounts by Choler&yjqiang
 WeChat.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\?,script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/wechat/wechat_public_accounts.js
 
-# Vue by Nobyda
+# Vue by NobyDa
 VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,type=http-response,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 
 # Weibo opener by chouchouai
