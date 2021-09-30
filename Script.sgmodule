@@ -17,7 +17,7 @@ WeChat.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/m
 # Vue by NobyDa
 VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,type=http-response,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 
-# Weibo opener by chouchouai
+# Weibo opener by chouchoui
 Weiboredirect = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?toasturl=(.*),script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/weibo/weibo.redirect.js,script-update-interval=0
 
 # Weibo by yichahucha
