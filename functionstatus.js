@@ -26,7 +26,7 @@ if ($trigger == "button") await httpAPI("/v1/dns/flush");
 //$notification.post("配置重载","配置重载成功","")
 //};
 $done({
-    title:"𝐒𝐮𝐫𝐠𝐞  已运行: "+startTime, //标题
+    title:"𝐒𝐔𝐑𝐆𝐄  已运行: "+startTime, //标题
     content:"MitM "+icon_status(mitm_status.enabled)+"  Rewrite "+icon_status(rewrite_status.enabled)+"  Scripting "+icon_status(scripting_status.enabled),
     icon: icon_s?"checkmark.seal.fill":"exclamationmark.circle", //图标
    "icon-color":icon_s?"#24839e":"#CB1B45" //颜色
