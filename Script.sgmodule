@@ -2,12 +2,9 @@
 #!desc=Script Pack
 
 [MITM]
-hostname = %APPEND% api.vuevideo.net, boxer.baidu.com, mp.weixin.qq.com, *.googlevideo.com, api.weibo.cn, share.api.weibo.cn, weibo.cn, mapi.weibo.com, *.uve.weibo.com
+hostname = %APPEND% api.vuevideo.net, mp.weixin.qq.com, *.googlevideo.com, api.weibo.cn, share.api.weibo.cn, weibo.cn, mapi.weibo.com, *.uve.weibo.com
 
 [Script]
-# Baidu No Direct by app2smile
-baidu-no-redirect.js = type=http-response,pattern=^https?\:\/\/boxer\.baidu\.com\/scheme,script-path=https://raw.githubusercontent.com/app2smile/rules/master/js/baidu-no-redirect.js
-
 # Vue by NobyDa
 VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,type=http-response,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 
