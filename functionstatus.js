@@ -28,7 +28,7 @@ if ($trigger == "button") await httpAPI("/v1/dns/flush");
 $done({
     title:"𝗦𝗨𝗥𝗚𝗘  已运行: "+startTime, //标题
     content:"MitM "+icon_status(mitm_status.enabled)+"  Rewrite "+icon_status(rewrite_status.enabled)+"  Scripting "+icon_status(scripting_status.enabled),
-    icon: icon_s?"power.circle":"exclamationmark.circle", //图标
+    icon: icon_s?"checkmark.seal.fill":"exclamationmark.circle", //图标
    "icon-color":icon_s?"#24839e":"#CB1B45" //颜色
 });
 })();
