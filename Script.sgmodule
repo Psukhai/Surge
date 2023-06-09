@@ -1,5 +1,6 @@
 #!name=Script Module
 #!desc=Script Pack
+#!system=ios
 
 [MITM]
 hostname = %APPEND% api.vuevideo.net, api.weibo.cn, mp.weixin.qq.com, share.api.weibo.cn, weibo.cn
@@ -11,5 +12,5 @@ VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Sc
 # Weibo opener by chouchoui
 Weiboredirect = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?toasturl=(.*),script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/weibo/weibo.redirect.js,script-update-interval=0
 
-# Wechat public accounts by Choler&yjqiang
-WeChat.js = type=http-response,requires-body=1,max-size=-1,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\?,script-path=https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/wechat/wechat_public_accounts.js
+# Wechat public accounts by Choler&NobyDa
+WeChat.js = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
