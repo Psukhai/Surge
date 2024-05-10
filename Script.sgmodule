@@ -11,3 +11,6 @@ VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Sc
 
 # Weibo opener by chouchoui
 Weiboredirect = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?toasturl=(.*),script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/weibo/weibo.redirect.js,script-update-interval=0
+
+# 去除公众号文章底部广告 by Nobyda
+WeChat.js = type=http-response,requires-body=1,max-size=0,pattern=^https?:\/\/mp\.weixin\.qq\.com\/mp\/getappmsgad\?,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/File/Wechat.js
