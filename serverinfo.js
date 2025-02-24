@@ -36,9 +36,9 @@ argument = url=http://127.0.0.1:7122&name=花里胡哨才是生产力&icon=bolt.
   const col = Diydecide(0, 30, 70, parseInt(jsonData.mem_usage));
   panel.title = params.name || 'Server Info';
   panel.icon = params.icon || 'bolt.horizontal.icloud.fill';
-  panel["icon-color"] = shifts[col];
-  panel.content = `CPU:    ${cpuUsage}  〡  MEM:    ${memUsage}\n` +
-    `Recv: ${bytesToSize(outTraffic)}  〡  Sent: ${bytesToSize(inTraffic)}\n` +
+  panel["icon-color"] = shifts[col];        
+  panel.content = `CPU: ${cpuUsage} 〡MEM:    ${memUsage}\n` +
+    `Recv: ${bytesToSize(outTraffic)} 〡 Sent: ${bytesToSize(inTraffic)}\n` +
     `Total: ${trafficSize}\n` +
     `Uptime: ${formatUptime(jsonData.uptime)}\n` +
     `Last Update: ${timeString}`;
