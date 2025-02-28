@@ -3,11 +3,9 @@
 #!system=ios
 
 [MITM]
-hostname = %APPEND% api.vuevideo.net, api.weibo.cn, mp.weixin.qq.com, share.api.weibo.cn, weibo.cn
+hostname = %APPEND% api.weibo.cn, mp.weixin.qq.com, share.api.weibo.cn, weibo.cn
 
 [Script]
-# Vue by NobyDa
-VUE.js = requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/VUE.js,type=http-response,pattern=^https:\/\/api\.vuevideo\.net\/api\/v1\/(users\/.+\/profile|subtitle\/prepare)
 
 # Weibo opener by chouchoui
 Weiboredirect = type=http-request,pattern=^https:\/\/weibo\.cn\/sinaurl\?toasturl=(.*),script-path=https://raw.githubusercontent.com/chouchoui/QuanX/master/Scripts/weibo/weibo.redirect.js,script-update-interval=0
